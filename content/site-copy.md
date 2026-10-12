@@ -1,5 +1,20 @@
 # The Enginar Group website copy
 
+## Brand structure — updated 12 October 2026
+
+The Enginar Group Ltd is the company. Genephera is its health-software brand.
+Artichoke Steps and Origin are Genephera products. Origin remains in development.
+Walk Well is a supporting educational walking guide, not a third software product.
+
+Published changes: company/brand introduction on Home; brand and products before
+release history on Genephera; brand attribution and return links on both product
+pages; Walk Well links on Genephera and Artichoke Steps. Existing page URLs retained.
+
+Walking guide: https://step-to-health.lovable.app/#start
+
+The detailed copy below is the earlier baseline; the brand relationship above
+supersedes its former use of “ecosystem”.
+
 ## Home
 
 ### Header

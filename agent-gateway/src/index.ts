@@ -65,7 +65,9 @@ ${sitemapPaths
 const llms = `# The Enginar Group
 > Independent UK product studio building privacy-conscious health technology.
 
-## Company and ecosystem
+## Company and health-software brand
+Genephera is the health-software brand of The Enginar Group Ltd. Artichoke Steps and Origin are Genephera products.
+
 - [The Enginar Group](${canonicalOrigin}/home)
 - [Genephera](${canonicalOrigin}/genephera)
 
@@ -74,6 +76,7 @@ const llms = `# The Enginar Group
 - [Origin](${canonicalOrigin}/origin)
 
 ## Supporting information
+- [Walk Well — educational walking guide](https://step-to-health.lovable.app/#start)
 - [Writing](${canonicalOrigin}/writing)
 - [Privacy](${canonicalOrigin}/genepheraprivacypolicy)
 - [Artichoke Steps 1.0 release notes](${canonicalOrigin}/genephera-release-notes-v1)
@@ -150,7 +153,7 @@ function aiCatalog(): Response {
           type: "application/ai-skill+md",
           url: `${canonicalOrigin}/.well-known/agent-skills/enginar-product-information/SKILL.md`,
           description:
-            "Canonical company, ecosystem, product, privacy, and availability information.",
+            "Canonical company, health-software brand, product, privacy, and availability information.",
           tags: ["health-technology", "privacy", "product-information"],
           representativeQueries: [
             "What is The Enginar Group?",
@@ -158,8 +161,8 @@ function aiCatalog(): Response {
             "How does Artichoke Steps handle Apple Health data?",
             "Is Origin available?",
           ],
-          version: "1.0.0",
-          updatedAt: "2026-09-08T00:00:00Z",
+          version: "1.1.0",
+          updatedAt: "2026-10-12T00:00:00Z",
         },
       ],
     },
